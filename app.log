@@ -1,0 +1,1269 @@
+INFO:waitress:Serving on http://127.0.0.1:2000
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Tue, 21 Feb 2023 17:37:31 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Tue, 21 Feb 2023 17:42:22 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '107'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-quorum-acked-lsn': 'REDACTED'
+    'x-ms-current-write-quorum': 'REDACTED'
+    'x-ms-current-replica-set-size': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-cosmos-quorum-acked-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Tue, 21 Feb 2023 17:44:13 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '107'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-quorum-acked-lsn': 'REDACTED'
+    'x-ms-current-write-quorum': 'REDACTED'
+    'x-ms-current-replica-set-size': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-cosmos-quorum-acked-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Tue, 21 Feb 2023 17:44:28 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/new_words/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '35'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/new_words/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-quorum-acked-lsn': 'REDACTED'
+    'x-ms-current-write-quorum': 'REDACTED'
+    'x-ms-current-replica-set-size': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-cosmos-quorum-acked-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Tue, 21 Feb 2023 17:45:10 GMT'
+INFO:waitress:Serving on http://127.0.0.1:2000
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Tue, 21 Feb 2023 17:56:50 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Tue, 21 Feb 2023 17:57:57 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '107'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Tue, 21 Feb 2023 18:03:51 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/new_words/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '35'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/new_words/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Tue, 21 Feb 2023 18:04:11 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/temp_words/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '60'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/temp_words/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Tue, 21 Feb 2023 18:04:18 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+ERROR:main:Exception on /userlogin [POST]
+Traceback (most recent call last):
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\project\scribe-backend\ScribeCodes\main.py", line 57, in jwt_gen
+    result, msg = UserLogin(request_body)
+  File "C:\project\scribe-backend\ScribeCodes\driver.py", line 49, in UserLogin
+    for item in container.query_items(query=f"SELECT * FROM {con_name} t WHERE t.User=@user", parameters = [{"name": "@user", "value": data["User"]}], enable_cross_partition_query = True):
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\core\paging.py", line 132, in __next__
+    return next(self._page_iterator)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\core\paging.py", line 76, in __next__
+    self._response = self._get_next(self.continuation_token)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_query_iterable.py", line 98, in _fetch_next
+    block = self._ex_context.fetch_next_block()
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_execution_context\execution_dispatcher.py", line 102, in fetch_next_block
+    return self._execution_context.fetch_next_block()
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_execution_context\base_execution_context.py", line 80, in fetch_next_block
+    return self._fetch_next_block()
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_execution_context\base_execution_context.py", line 170, in _fetch_next_block
+    return self._fetch_items_helper_with_retries(self._fetch_function)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_execution_context\base_execution_context.py", line 142, in _fetch_items_helper_with_retries
+    return _retry_utility.Execute(self._client, self._client._global_endpoint_manager, callback)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_retry_utility.py", line 79, in Execute
+    result = ExecuteFunction(function, *args, **kwargs)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_retry_utility.py", line 136, in ExecuteFunction
+    return function(*args, **kwargs)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_execution_context\base_execution_context.py", line 140, in callback
+    return self._fetch_items_helper_no_retries(fetch_function)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_execution_context\base_execution_context.py", line 123, in _fetch_items_helper_no_retries
+    (fetched_items, response_headers) = fetch_function(new_options)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_cosmos_client_connection.py", line 924, in fetch_fn
+    self.__QueryFeed(
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_cosmos_client_connection.py", line 2448, in __QueryFeed
+    result, self.last_response_headers = self.__Post(path, request_params, query, req_headers, **kwargs)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_cosmos_client_connection.py", line 2274, in __Post
+    return synchronized_request.SynchronizedRequest(
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_synchronized_request.py", line 206, in SynchronizedRequest
+    return _retry_utility.Execute(
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_retry_utility.py", line 77, in Execute
+    result = ExecuteFunction(function, global_endpoint_manager, *args, **kwargs)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_retry_utility.py", line 136, in ExecuteFunction
+    return function(*args, **kwargs)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_synchronized_request.py", line 131, in _Request
+    response = _PipelineRunFunction(
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_synchronized_request.py", line 172, in _PipelineRunFunction
+    return pipeline_client._pipeline.run(request, **kwargs)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\core\pipeline\_base.py", line 205, in run
+    return first_node.send(pipeline_request)  # type: ignore
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\core\pipeline\_base.py", line 69, in send
+    response = self.next.send(request)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\core\pipeline\_base.py", line 69, in send
+    response = self.next.send(request)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\core\pipeline\_base.py", line 69, in send
+    response = self.next.send(request)
+  [Previous line repeated 1 more time]
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_retry_utility.py", line 208, in send
+    raise err
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\cosmos\_retry_utility.py", line 185, in send
+    response = self.next.send(request)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\core\pipeline\_base.py", line 69, in send
+    response = self.next.send(request)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\core\pipeline\_base.py", line 69, in send
+    response = self.next.send(request)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\core\pipeline\_base.py", line 69, in send
+    response = self.next.send(request)
+  [Previous line repeated 1 more time]
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\core\pipeline\_base.py", line 100, in send
+    self._sender.send(request.http_request, **request.context.options),
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\azure\core\pipeline\transport\_requests_basic.py", line 376, in send
+    raise error
+azure.core.exceptions.ServiceResponseError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): 3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Wed, 22 Feb 2023 04:00:26 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Wed, 22 Feb 2023 04:00:43 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Wed, 22 Feb 2023 05:39:43 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:waitress:Serving on http://127.0.0.1:2000
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:waitress:Serving on http://127.0.0.1:2000
+INFO:waitress:Serving on http://127.0.0.1:2000
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Wed, 22 Feb 2023 05:58:18 GMT'
+INFO:waitress:Serving on http://127.0.0.1:2000
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-quorum-acked-lsn': 'REDACTED'
+    'x-ms-current-write-quorum': 'REDACTED'
+    'x-ms-current-replica-set-size': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-cosmos-quorum-acked-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Wed, 22 Feb 2023 06:00:39 GMT'
+INFO:waitress:Serving on http://127.0.0.1:2000
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-quorum-acked-lsn': 'REDACTED'
+    'x-ms-current-write-quorum': 'REDACTED'
+    'x-ms-current-replica-set-size': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-cosmos-quorum-acked-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Wed, 22 Feb 2023 06:07:08 GMT'
+ERROR:main:Exception on /userlogin [POST]
+Traceback (most recent call last):
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\project\scribe-backend\ScribeCodes\main.py", line 65, in jwt_gen
+    set_access_cookies(response, jwt_token,httponly=False)
+TypeError: set_access_cookies() got an unexpected keyword argument 'httponly'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Wed, 22 Feb 2023 06:07:24 GMT'
+ERROR:main:Exception on /userlogin [POST]
+Traceback (most recent call last):
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\919206\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\project\scribe-backend\ScribeCodes\main.py", line 65, in jwt_gen
+    set_access_cookies(response, jwt_token,httponly=False)
+TypeError: set_access_cookies() got an unexpected keyword argument 'httponly'
+INFO:waitress:Serving on http://127.0.0.1:2000
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Wed, 22 Feb 2023 06:10:30 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Wed, 22 Feb 2023 06:21:44 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443/dbs/cosmos_nuance/colls/user_info/docs/'
+Request method: 'POST'
+Request headers:
+    'Cache-Control': 'no-cache'
+    'x-ms-version': 'REDACTED'
+    'x-ms-documentdb-query-iscontinuationexpected': 'REDACTED'
+    'x-ms-consistency-level': 'REDACTED'
+    'x-ms-documentdb-isquery': 'REDACTED'
+    'Content-Type': 'application/query+json'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-documentdb-query-enablecrosspartition': 'REDACTED'
+    'x-ms-date': 'REDACTED'
+    'authorization': 'REDACTED'
+    'Accept': 'application/json'
+    'Content-Length': '104'
+    'User-Agent': 'azsdk-python-cosmos/4.3.0 Python/3.9.7 (Windows-10-10.0.22621-SP0)'
+A body is sent with the request
+DEBUG:urllib3.connectionpool:https://3ff2b0ec-85d6-4182-b303-6652395c5858.documents.azure.com:443 "POST /dbs/cosmos_nuance/colls/user_info/docs/ HTTP/1.1" 200 None
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 200
+Response headers:
+    'Cache-Control': 'no-store, no-cache'
+    'Pragma': 'no-cache'
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json'
+    'Server': 'Microsoft-HTTPAPI/2.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-ms-activity-id': 'REDACTED'
+    'x-ms-last-state-change-utc': 'REDACTED'
+    'x-ms-resource-quota': 'REDACTED'
+    'x-ms-resource-usage': 'REDACTED'
+    'x-ms-schemaversion': 'REDACTED'
+    'lsn': 'REDACTED'
+    'x-ms-item-count': 'REDACTED'
+    'x-ms-request-charge': 'REDACTED'
+    'x-ms-alt-content-path': 'REDACTED'
+    'x-ms-content-path': 'REDACTED'
+    'x-ms-documentdb-partitionkeyrangeid': 'REDACTED'
+    'x-ms-xp-role': 'REDACTED'
+    'x-ms-cosmos-query-execution-info': 'REDACTED'
+    'x-ms-global-Committed-lsn': 'REDACTED'
+    'x-ms-number-of-read-regions': 'REDACTED'
+    'x-ms-transport-request-id': 'REDACTED'
+    'x-ms-cosmos-llsn': 'REDACTED'
+    'x-ms-session-token': 'REDACTED'
+    'x-ms-request-duration-ms': 'REDACTED'
+    'x-ms-serviceversion': 'REDACTED'
+    'x-ms-cosmos-is-partition-key-delete-pending': 'REDACTED'
+    'x-ms-gatewayversion': 'REDACTED'
+    'Date': 'Wed, 22 Feb 2023 06:22:31 GMT'
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: origin
+WARNING:flask_cors.core:Unknown option passed to Flask-CORS: headers
