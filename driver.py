@@ -15,7 +15,7 @@ import spacy_udpipe
 from datetime import datetime
 from hunspell import Hunspell
 from itertools import repeat, chain, accumulate
-#import sys
+import sys
 
 # decrypt the config file
 file = './db_config.ini'
@@ -478,10 +478,12 @@ def prepareData(inputData):
                 if len(verbDetected)>0:
                     for i in range(len(verbDetected)):
                         if re.search('follow',verbDetected['verb'][i],flags=re.IGNORECASE):
-                            nextWord= inputData[int(re.findall('\\d+',para_id)[0])][verbDetected['end'][i]+1:verbDetected['end'][i]+20]
-                            nextWord=re.findall('\\w+',nextWord)[0]
-                            if not nextWord==None and re.search('up|Up|uP',nextWord):
-                                next
+                            nextWords= inputData[int(re.findall('\\d+',para_id)[0])-1][verbDetected['end'][i]+1:verbDetected['end'][i]+20]
+                            nextWords=re.findall('\\w+',nextWords) #list
+                            if len(nextWords) > 0:
+                                nextWord = nextWords[0] #str
+                            if not nextWords==[] and re.search('up|Up|uP',nextWord):
+                                continue
                         paraGraphNum=paraGraphNum + [int(re.findall('\\d+',para_id)[0])]
                         wordDetected=wordDetected + [verbDetected['verb'][i]]
                         suggestedWord=suggestedWord + [verbDetected['suggest'][i]]
@@ -1612,5 +1614,5 @@ def prepareData(inputData):
         else:
             return (wordTable.sort_values(by=['ParagraphNum','StartPos']).reset_index(drop=True)).to_dict()
     except Exception as e:
-        #exc_type, exc_obj, exc_tb = sys.exc_info()
-        return f"Internal error: {str(e)}" # , line_num: {int(exc_tb.tb_lineno)}"
+        exc_type, exc_obj, exc_tb = sys.exc_info()
+        return f"Internal error: {str(e)}, line_num: {int(exc_tb.tb_lineno)}"
